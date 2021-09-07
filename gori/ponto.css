@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #007746;
     font-family: Arial, Helvetica, sans-serif;
@@ -5,9 +9,38 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
+    background-color: #20ac71;
+    margin-top: 0px;
+    border-bottom-color: forestgreen;
+    border-bottom-width: 5px;
+    border-bottom-style: groove;
+    padding-bottom: 5px;
 }
 
-.titulo1 {
+
+.caixa {
     color: white;
+    background-color: #20ac71;
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -200px;
+    border-width: 15px;
+    border-color: forestgreen;
+    border-style: groove;
+    border-radius: 20px;
 }
+
+fieldset{
+    border: none;
+    padding-top: 10%;
+}
+
+#input_mat{
+    
+}
+

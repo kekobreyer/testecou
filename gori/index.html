@@ -9,29 +9,31 @@
 
     <body>
         <img src="logo.png" width="300" height="300">
-        <h1 class="titulo1">Sistema de Controle de Ponto</h1>
-        <form id='login'>
-            <fieldset>
-                <legend>Login</legend>
-                <div>
-                    <label>Matrícula:</label>
-                    <input maxlength='8' type="text" />
-                </div>
-                <br>
-                <br>
+        <div class="caixa">
+            <h1 id="titulo1">Sistema de Controle de Ponto</h1>
+            <form id='login'>
+                <fieldset>
+                    <legend>Login</legend>
+                    <div>
+                        <label>Matrícula:</label>
+                        <input size='5px' maxlength='8' type="text" />
+                    </div>
+                    <br>
+                    <br>
 
-                <div>
-                    <label>Senha:</label>
-                    <input type="password" />
-                </div>
-                <br>
-            </fieldset>
-        </form>
+                    <div>
+                        <label>Senha:</label>
+                        <input type="password" />
+                    </div>
+                    <br>
+                </fieldset>
+            </form>
+            <div>
+                <button onclick="document.getElementById('player').play()">Finalizar Cadastro</button>
+            </div>
+            <audio id="player" loop>
+                <source src="gemido.mp3" type="audio/mp3" />
+            </audio>
+        </div>
     </body>
-    <div>
-        <button onclick="document.getElementById('player').play()">Finalizar Cadastro</button>
-    </div>
-    <audio id="player" loop>
-        <source src="gemido.mp3" type="audio/mp3" />
-    </audio>
 </hmtl>
