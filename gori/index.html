@@ -8,28 +8,28 @@
     </head>
 
     <body>
-        <img src="logo.png" width="300" height="300">
+        <img src="logo.png" width="400" height="400">
         <div class="caixa">
             <h1 id="titulo1">Sistema de Controle de Ponto</h1>
             <form id='login'>
                 <fieldset>
-                    <legend>Login</legend>
+                    <legend id='login_title'>Login</legend>
                     <div>
-                        <label>Matrícula:</label>
+                        <label class='campo'>Matrícula:</label>
                         <input size='5px' maxlength='8' type="text" />
                     </div>
                     <br>
                     <br>
 
                     <div>
-                        <label>Senha:</label>
-                        <input type="password" />
+                        <label class='campo'>Senha:</label>
+                        <input size='7px' type="password" />
                     </div>
                     <br>
                 </fieldset>
             </form>
             <div>
-                <button onclick="document.getElementById('player').play()">Finalizar Cadastro</button>
+                <button id='botao1' onclick="document.getElementById('player').play()">Entrar</button>
             </div>
             <audio id="player" loop>
                 <source src="gemido.mp3" type="audio/mp3" />
