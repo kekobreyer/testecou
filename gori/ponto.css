@@ -26,8 +26,8 @@ h1 {
     width: 500px;
     height: 450px;
     position: relative;
-    top: 50%;
     left: 50%;
+    top: 50%;
     margin-left: -250px;
     margin-top: -200px;
     border-width: 15px;
