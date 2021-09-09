@@ -1,0 +1,65 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("rainbow.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixa {
+    color: white;
+    background-color: #20ac71;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    left: 50%;
+    margin-top: 230px;
+    margin-left: -250px;
+    border-width: 15px;
+    border-color: forestgreen;
+    border-style: groove;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    background-color: #20ac71;
+    margin-top: 0px;
+    border-bottom-color: forestgreen;
+    border-bottom-width: 5px;
+    border-bottom-style: groove;
+    padding-bottom: 5px;
+    
+}
+
+.botoes button {
+    border: 1px solid green; 
+    background-color: white;
+    padding: 10px 24px; 
+    width: 50%; 
+    height: 60px;
+    display: block; 
+    position: relative;
+    cursor: pointer;
+    left:25%
+    
+  }
+
+  #botao_azul:hover, #botao_azul:active{
+    background-color: blue;
+  }
+  
+  #botao_verde:hover, #botao_verde:active{
+    background-color: green;
+  }
+
+  #botao_vermelho:hover, #botao_vermelho:active{
+    background-color: red;
+  }
+  #botao_amarelo:hover, #botao_amarelo:active{
+    background-color: yellow;
+  }
