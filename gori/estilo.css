@@ -3,6 +3,7 @@ body {
     color: #fff;
     background-color:#1e4637;
     font-family: 'Oxygen', sans-serif;
+    height: 100vh;
   }
 
   #header-nav {
@@ -40,3 +41,22 @@ body {
   .navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a {
     text-decoration: none;
   }
+  
+  #mainman {
+    background-color: mistyrose;
+    border-style: solid;
+    border-color: #007746;
+    border-bottom: none;
+    color: black;
+  }
+
+  .botaoponto{
+    font-size: 95px;
+  }
+
+  .btn{
+    border-radius: 0;
+  }
+  
+
+  

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -12,24 +12,32 @@
 </head>
 
 <body>
-    <header>
-        <nav id="header-nav" class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <a href="login.html" class="float-start d-none d-md-block">
-                        <div id="logo-img"></div>
-                    </a>
-                    <div class="navbar-brand">
-                        <a href="login.html">
-                            <h1>Sistema de Controle de Ponto</h1>
+        <header>
+            <nav id="header-nav" class="navbar navbar-default h-25">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="login.html" class="float-start d-none d-md-block">
+                            <div id="logo-img"></div>
                         </a>
+                        <div class="navbar-brand">
+                            <a href="login.html">
+                                <h1>Sistema de Controle de Ponto</h1>
+                            </a>
+                        </div>
                     </div>
-                    
+
                 </div>
-            </div>             
-        </nav>
-    </header>
+            </nav>
+        </header>
+        <div class="container h-75" id="mainman">
+            <div class="h-50 d-flex row justify-content-center align-items-stretch"><button type="button" class="btn btn-success botaoponto">Bater Ponto</button></div>
+            <div class="h-50 d-flex  row justify-content-center align-items-stretch"><button type="button" class="btn btn-warning botaoponto">Ver/Alterar Pontos</button></div>
+        </div> 
+    
+    
+
     <script src="bootstrap.min.js"></script>
     <script src="jquery.js"></script>
 </body>
+
 </html>
